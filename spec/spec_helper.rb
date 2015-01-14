@@ -3,6 +3,7 @@ require 'rack/test'
 require 'vcr_setup'
 require 'find'
 require File.expand_path("../../config/environment", __FILE__)
+require 'support/json_schema_matcher'
 
 WebMock.disable_net_connect!(allow_localhost: true)
 #WebMock.allow_net_connect!

@@ -1,0 +1,43 @@
+{
+  "definitions" : {
+    "station" : {
+      "type" : "object",
+      "required" : [
+        "name",
+        "short_name",
+        "latitude",
+        "longitude",
+        "address",
+        "city",
+        "state",
+        "zipcode",
+        "county"
+      ],
+      "properties" : {
+        "name" : { "type" : "string" },
+        "short_name" : { "type" : "string" },        
+        "latitude" : { "type" : "string" },
+        "longitude" : { "type" : "string" },
+        "address" : { "type" : "string" },
+        "city" : { "type" : "string" },
+        "state" : { "type" : "string" },
+        "zipcode" : { "type" : "string" },
+        "county" : { "type" : "string" }
+      }
+    }
+  },
+
+  "type": "object",
+  "required": ["stations"],
+  "properties": {
+    "stations" : {
+      "type" : "array",
+      "maxItems" : 45,
+      "minItems" : 45,
+      "uniqueItems" : true,
+      "items" : {
+        "$ref": "#/definitions/station"
+      }
+    }
+  }
+}
