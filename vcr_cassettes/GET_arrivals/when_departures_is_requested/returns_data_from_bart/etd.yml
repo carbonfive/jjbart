@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.bart.gov/api/etd.aspx/?cmd=etd&key=MW9S-E7SL-26DU-VV8V&orig=woak
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Type:
+      - text/xml; charset=utf-8
+      Expires:
+      - '-1'
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.5
+      Access-Control-Allow-Origin:
+      - '*'
+      X-Aspnet-Version:
+      - 2.0.50727
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Mon, 12 Jan 2015 19:58:42 GMT
+      Content-Length:
+      - '897'
+    body:
+      encoding: UTF-8
+      string: |-
+        <?xml version="1.0" encoding="utf-8"?><root><uri><![CDATA[http://api.bart.gov/api/etd.aspx?orig=woak&cmd=etd]]></uri><date>01/12/2015</date>
+        <time>11:58:34 AM PST</time>
+        <station><name>West Oakland</name><abbr>WOAK</abbr><etd><destination>Daly City</destination><abbreviation>DALY</abbreviation><estimate><minutes>5</minutes><platform>1</platform><direction>South</direction><length>5</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>9</minutes><platform>1</platform><direction>South</direction><length>4</length><color>BLUE</color><hexcolor>#0099cc</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>17</minutes><platform>1</platform><direction>South</direction><length>5</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag></estimate></etd><etd><destination>Dublin/Pleasanton</destination><abbreviation>DUBL</abbreviation><estimate><minutes>3</minutes><platform>2</platform><direction>North</direction><length>4</length><color>BLUE</color><hexcolor>#0099cc</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>18</minutes><platform>2</platform><direction>North</direction><length>4</length><color>BLUE</color><hexcolor>#0099cc</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>33</minutes><platform>2</platform><direction>North</direction><length>4</length><color>BLUE</color><hexcolor>#0099cc</hexcolor><bikeflag>1</bikeflag></estimate></etd><etd><destination>Fremont</destination><abbreviation>FRMT</abbreviation><estimate><minutes>11</minutes><platform>2</platform><direction>North</direction><length>5</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>25</minutes><platform>2</platform><direction>North</direction><length>5</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>40</minutes><platform>2</platform><direction>North</direction><length>4</length><color>GREEN</color><hexcolor>#339933</hexcolor><bikeflag>1</bikeflag></estimate></etd><etd><destination>Millbrae</destination><abbreviation>MLBR</abbreviation><estimate><minutes>13</minutes><platform>1</platform><direction>South</direction><length>5</length><color>RED</color><hexcolor>#ff0000</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>28</minutes><platform>1</platform><direction>South</direction><length>5</length><color>RED</color><hexcolor>#ff0000</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>43</minutes><platform>1</platform><direction>South</direction><length>5</length><color>RED</color><hexcolor>#ff0000</hexcolor><bikeflag>1</bikeflag></estimate></etd><etd><destination>Pittsburg/Bay Point</destination><abbreviation>PITT</abbreviation><estimate><minutes>5</minutes><platform>2</platform><direction>North</direction><length>9</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>20</minutes><platform>2</platform><direction>North</direction><length>9</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>35</minutes><platform>2</platform><direction>North</direction><length>10</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag></estimate></etd><etd><destination>Richmond</destination><abbreviation>RICH</abbreviation><estimate><minutes>13</minutes><platform>2</platform><direction>North</direction><length>4</length><color>RED</color><hexcolor>#ff0000</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>28</minutes><platform>2</platform><direction>North</direction><length>5</length><color>RED</color><hexcolor>#ff0000</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>43</minutes><platform>2</platform><direction>North</direction><length>4</length><color>RED</color><hexcolor>#ff0000</hexcolor><bikeflag>1</bikeflag></estimate></etd><etd><destination>SF Airport</destination><abbreviation>SFIA</abbreviation><estimate><minutes>5</minutes><platform>1</platform><direction>South</direction><length>5</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>22</minutes><platform>1</platform><direction>South</direction><length>9</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag></estimate><estimate><minutes>35</minutes><platform>1</platform><direction>South</direction><length>10</length><color>YELLOW</color><hexcolor>#ffff33</hexcolor><bikeflag>1</bikeflag></estimate></etd></station><message></message></root>
+    http_version: 
+  recorded_at: Mon, 12 Jan 2015 19:58:43 GMT
+recorded_with: VCR 2.9.3
