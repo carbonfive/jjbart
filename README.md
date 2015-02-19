@@ -11,7 +11,7 @@
 
 **Requirements**
 - Ruby 2.2.0+
-- PostgreSQL 9+
+- PostgreSQL 9+ (w/ PostGIS)
 - Rails 4
 
 **Set up environment**
